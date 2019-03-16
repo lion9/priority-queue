@@ -17,7 +17,12 @@ class MaxHeap {
 	}
 
 	detachRoot() {
-		
+		this.parentNodes.forEach(element => {
+			if (element == this.root) {
+				this.parentNodes.splice(this.parentNodes.indexOf(this.root));
+			}
+		});
+		this.root = null;
 	}
 
 	restoreRootFromLastInsertedNode(detached) {
@@ -25,11 +30,11 @@ class MaxHeap {
 	}
 
 	size() {
-		return this.length;
+		return this.parentNodes.length;
 	}
 
 	isEmpty() {
-		if (this.root == null) {
+		if (this.parentNodes.length == 0) {
 			return true;
 		}
 	}

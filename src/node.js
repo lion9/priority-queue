@@ -37,9 +37,69 @@ class Node {
 
 	swapWithParent() {
 		if (this.parent != null) {
+			var oldThis = this;
+			var oldThisParent = this.parent;
+			var oldThisLeftChild = this.left;
+			var oldThisRightChild = this.right;
 
+			var oldParent = this;
+			var oldsParentParent = this.parent.parent;
+			var oldsParentLeft = this.parent.left;
+			var oldsParentRight = this.parent.right;
+
+			if (oldThisParent.left == this) {
+				// !!!!! maintains correct state of parent.parent.left and parent.parent.right
+				if (this.parent.parent != null && this.parent.parent.left == this.parent) {
+					this.parent.parent.left = this;
+				}
+				if (this.parent.parent != null && this.parent.parent.right == this.parent) {
+					this.parent.parent.right = this;
+				}
+				// ????? updates parent field of this' children
+				if (this.left != null) {
+					this.left.parent = this.parent;
+				}
+
+				if (this.right != null) {
+					this.right.parent = this.parent;
+				}
+				
+			} else if (oldThisParent.right == this) {
+				// !!!!! maintains correct state of parent.parent.left and parent.parent.right
+				if (this.parent.parent != null && this.parent.parent.left == this.parent) {
+					this.parent.parent.left = this;
+				}
+				if (this.parent.parent != null && this.parent.parent.right == this.parent) {
+					this.parent.parent.right = this;
+				}
+				// ?????? updates parent field of this' children
+				if (this.left != null) {
+					this.left.parent = this.parent;
+				}
+
+				if (this.right != null) {
+					this.right.parent = this.parent;
+				}
+			}
 		}
 	}
 }
 
+
+var node10 = new Node(10, 10);
+var node6 = new Node(6, 6);
+var node9 = new Node(9, 9);
+var node3 = new Node(3, 3);
+var node2 = new Node(2, 2);
+var node1 = new Node(1, 1);
+node10.appendChild(node6); // root node
+node10.appendChild(node9);
+
+node6.appendChild(node3); // level 2 node
+node6.appendChild(node1);
+node9.appendChild(node2);
+
+node9.swapWithParent();
+
 module.exports = Node;
+
