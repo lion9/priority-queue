@@ -70,13 +70,15 @@ class Node {
 				if (this.parent.right != null) {
 					this.parent.right.parent = this;
 				}
-				// !!! updates child.parent
+
+				// !!!!! updates child.parent
 				if (this.parent.parent != null) {
 					this.parent = this.parent.parent;
 				}
 
-				this.left = this.parent;
+				this.left = oldThisParent;
 				this.left.parent = this;
+				
 				
 			} else if (oldThisParent.right == this) {
 				
@@ -107,7 +109,7 @@ class Node {
 					this.parent = this.parent.parent;
 				}
 
-				this.right = this.parent;
+				this.right = oldThisParent;
 				this.right.parent = this;
 
 			}
@@ -115,11 +117,14 @@ class Node {
 	}
 }
 
-const parent = new Node(1, 1);
+const root = new Node(1, 1);
 const child = new Node(2, 2);
+const grandson = new Node(3, 3);
 
-parent.appendChild(child);
-child.swapWithParent();
+root.appendChild(child);
+child.appendChild(grandson);
+
+grandson.swapWithParent();
 
 
 // var node10 = new Node(10, 10);
