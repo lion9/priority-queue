@@ -75,7 +75,8 @@ class Node {
 					this.parent = this.parent.parent;
 				}
 
-
+				this.left = this.parent;
+				this.left.parent = this;
 				
 			} else if (oldThisParent.right == this) {
 				
@@ -106,31 +107,37 @@ class Node {
 					this.parent = this.parent.parent;
 				}
 
+				this.right = this.parent;
+				this.right.parent = this;
 
 			}
 		}
 	}
 }
 
+const parent = new Node(1, 1);
+const child = new Node(2, 2);
+
+parent.appendChild(child);
+child.swapWithParent();
 
 
+// var node10 = new Node(10, 10);
+// var node6 = new Node(6, 6);
+// var node9 = new Node(9, 9);
+// var node3 = new Node(3, 3);
+// var node2 = new Node(2, 2);
+// var node1 = new Node(1, 1);
+// var node7 = new Node(7, 7);
+// node10.appendChild(node6); // root node
+// node10.appendChild(node9);
 
-var node10 = new Node(10, 10);
-var node6 = new Node(6, 6);
-var node9 = new Node(9, 9);
-var node3 = new Node(3, 3);
-var node2 = new Node(2, 2);
-var node1 = new Node(1, 1);
-var node7 = new Node(7, 7);
-node10.appendChild(node6); // root node
-node10.appendChild(node9);
+// node6.appendChild(node3); // level 2 node
+// node6.appendChild(node1);
+// node9.appendChild(node2);
+// node9.appendChild(node7);
 
-node6.appendChild(node3); // level 2 node
-node6.appendChild(node1);
-node9.appendChild(node2);
-node9.appendChild(node7);
-
-node3.swapWithParent();
+// node3.swapWithParent();
 
 module.exports = Node;
 
