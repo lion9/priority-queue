@@ -19,7 +19,7 @@ class PriorityQueue {
 	}
 
 	size() {
-		return this.parentNodes.length;
+		return this.heap.size;
 	}
 
 	isEmpty() {

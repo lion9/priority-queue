@@ -49,7 +49,7 @@ class Node {
 
 			if (oldThisParent.left == this) {
 				
-				// !!!!! maintains correct state of parent.parent.left and parent.parent.right
+				// maintains correct state of parent.parent.left and parent.parent.right
 				if (this.parent.parent != null && this.parent.parent.left == this.parent) {
 					this.parent.parent.left = this;
 				}
@@ -59,7 +59,7 @@ class Node {
 
 
 
-				// ????? updates parent field of this' children
+				// updates parent field of this' children
 				if (this.left != null) {
 					this.left.parent = this.parent;
 				}
@@ -69,7 +69,7 @@ class Node {
 
 
 				
-				/// !!!! updates parent.child.parent
+				/// updates parent.child.parent
 				if (this.parent.right != null) {
 					this.parent.right.parent = this;
 				}
@@ -77,14 +77,14 @@ class Node {
 					this.parent.left.parent = this;
 				}
 
-				// !!!!! updates child.parent
+				// updates child.parent
 				if (this.parent.parent != null) {
 					this.parent = this.parent.parent;
 				}
 
 
 
-				// !!!! updates parent.parent.parent
+				// updates parent.parent.parent
 				this.parent = oldThisParent.parent;
 				this.left = oldThisParent;
 				this.right = oldThisParent.right;
@@ -96,7 +96,7 @@ class Node {
 				
 			} else if (oldThisParent.right == this) {
 				
-				// !!!!! maintains correct state of parent.parent.left and parent.parent.right
+				// maintains correct state of parent.parent.left and parent.parent.right
 				if (this.parent.parent != null && this.parent.parent.left == this.parent) {
 					this.parent.parent.left = this;
 				}
@@ -106,7 +106,7 @@ class Node {
 
 
 
-				// ?????? updates parent field of this' children
+				// updates parent field of this' children
 				if (this.left != null) {
 					this.left.parent = this.parent;
 				}
@@ -115,7 +115,7 @@ class Node {
 				}
 
 
-				/// !!!! updates parent.child.parent
+				/// updates parent.child.parent
 				if (this.parent.left != null) {
 					this.parent.left.parent = this;
 				}
@@ -124,12 +124,12 @@ class Node {
 				}
 				
 
-				// !!! updates child.parent
+				// updates child.parent
 				if (this.parent.parent != null) {
 					this.parent = this.parent.parent;
 				}
 
-				// !!!! updates parent.parent.parent
+				// updates parent.parent.parent
 
 				this.parent = oldThisParent.parent;
 				this.right = oldThisParent;
@@ -139,10 +139,6 @@ class Node {
 				this.right.parent = this;
 
 			}
-
-			console.log(this);
-
-
 		}
 	}
 }
@@ -159,22 +155,22 @@ class Node {
 // left.swapWithParent();
 
 
-var node10 = new Node(10, 10);
-var node6 = new Node(6, 6);
-var node9 = new Node(9, 9);
-var node3 = new Node(3, 3);
-var node2 = new Node(2, 2);
-var node1 = new Node(1, 1);
-var node7 = new Node(7, 7);
-node10.appendChild(node6); // root node
-node10.appendChild(node9);
+// var node10 = new Node(10, 10);
+// var node6 = new Node(6, 6);
+// var node9 = new Node(9, 9);
+// var node3 = new Node(3, 3);
+// var node2 = new Node(2, 2);
+// var node1 = new Node(1, 1);
+// var node7 = new Node(7, 7);
+// node10.appendChild(node6); // root node
+// node10.appendChild(node9);
 
-node6.appendChild(node3); // level 2 node
-node6.appendChild(node1);
-node9.appendChild(node2);
-node9.appendChild(node7);
+// node6.appendChild(node3); // level 2 node
+// node6.appendChild(node1);
+// node9.appendChild(node2);
+// node9.appendChild(node7);
 
-node9.swapWithParent();
+// node7.swapWithParent();
 
 module.exports = Node;
 
