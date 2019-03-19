@@ -10,21 +10,49 @@ class PriorityQueue {
 	}
 
 	push(data, priority) {
-		this.heap.push(data, priority);
-    }
+		if (this.heap.size() < this.maxSize) {
+			this.heap.push(data, priority);
+		} else {
+			throw new error('Max size exceeded');
+		}
+	}
 
 
 	shift() {
-		return heap.pop();
+		if (this.size() > 0) {
+			return this.heap.pop();
+		} else {
+			throw new Error('The queue is empty');
+		}
+		
 	}
 
 	size() {
-		return this.heap.size;
+		return this.heap.size();
 	}
 
 	isEmpty() {
-		return (this.parentNodes.length === 0); 
+		return this.heap.isEmpty(); 
 	}
 }
+
+
+// let q = new Queue();
+// const nodes = [
+// 	{ priority: 10, data: 1 },
+// 	{ priority: 20, data: 2 },
+// 	{ priority: 5, data: 3 },
+// 	{ priority: 0, data: 4 },
+// 	{ priority: 8, data: 5 },
+// 	{ priority: 12, data: 6 },
+// 	{ priority: 17, data: 7 },
+// 	{ priority: 15, data: 8 },
+// ];
+
+// const expectedData = [2, 7, 8, 6, 1, 5, 3, 4]
+
+// nodes.forEach(node => q.push(node.data, node.priority));
+// expectedData.forEach(d => expect(q.shift()).to.equal(d));
+
 
 module.exports = PriorityQueue;
