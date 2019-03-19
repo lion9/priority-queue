@@ -143,34 +143,5 @@ class Node {
 	}
 }
 
-// const root = new Node(1, 1);
-// const left = new Node(2, 2);
-// const right = new Node(3, 3);
-// const childOfLeft = new Node(4, 4);
-
-// root.appendChild(left);
-// root.appendChild(right);
-// left.appendChild(childOfLeft);
-
-// left.swapWithParent();
-
-
-// var node10 = new Node(10, 10);
-// var node6 = new Node(6, 6);
-// var node9 = new Node(9, 9);
-// var node3 = new Node(3, 3);
-// var node2 = new Node(2, 2);
-// var node1 = new Node(1, 1);
-// var node7 = new Node(7, 7);
-// node10.appendChild(node6); // root node
-// node10.appendChild(node9);
-
-// node6.appendChild(node3); // level 2 node
-// node6.appendChild(node1);
-// node9.appendChild(node2);
-// node9.appendChild(node7);
-
-// node7.swapWithParent();
-
 module.exports = Node;
 
