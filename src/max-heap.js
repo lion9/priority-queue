@@ -186,15 +186,4 @@ class MaxHeap {
 	}
 }
 
-
-const h = new MaxHeap();
-h.push(42, 15);
-h.push(15, 14);
-h.push(0, 16);
-h.push(100, 100);
-
-for (let i = 0; i < 4; i++) {
-	console.log(h.pop());
-}
-
 module.exports = MaxHeap;
