@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98ca6d7c-8013-44d2-a439-871ec2b09534" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/max-heap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/max-heap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/max-heap.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/max-heap.spec.js" afterDir="false" />
+    </list>
+    <ignored path="$APPLICATION_HOME_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/max-heap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="193" column="2" selection-start-line="193" selection-start-column="2" selection-end-line="193" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!block;n#clear#0;n#MaxHeap#0" />
+                <element signature="n#!!block;n#insertNode#0;n#MaxHeap#0" />
+                <element signature="n#!!block;n#shiftNodeUp#0;n#MaxHeap#0" />
+                <element signature="n#!!block;n#hasBothChildren#0;n#MaxHeap#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/max-heap.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="219" column="12" lean-forward="true" selection-start-line="219" selection-start-column="12" selection-end-line="223" selection-end-column="29" />
+              <folding>
+                <element signature="e#383#1216#0" />
+                <element signature="e#522#823#0" />
+                <element signature="e#905#1211#0" />
+                <element signature="e#1251#3321#0" />
+                <element signature="e#3357#5106#0" />
+                <element signature="e#5136#5381#0" />
+                <element signature="e#6755#7316#0" />
+                <element signature="e#7372#8828#0" />
+                <element signature="e#8866#11819#0" />
+                <element signature="e#11848#12195#0" />
+                <element signature="e#12227#12466#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>size</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/max-heap.spec.js" />
+        <option value="$PROJECT_DIR$/src/max-heap.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="priority-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="priority-queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="priority-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="priority-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="priority-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="priority-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.max-heap.js">
+    <configuration name="max-heap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/max-heap.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.max-heap.js" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98ca6d7c-8013-44d2-a439-871ec2b09534" name="Default Changelist" comment="" />
+      <created>1553107230850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553107230850</updated>
+      <workItem from="1553107233705" duration="21587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21587000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="npm" order="0" sideWeight="0.50083196" side_tool="true" weight="0.24973656" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.19968387" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Debug" order="6" visible="true" weight="0.46265328" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34225196" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/max-heap.spec.js</url>
+          <line>216</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>191</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>197</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>198</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>199</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>192</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>193</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>194</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/max-heap.js</url>
+          <line>195</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/max-heap.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="219" column="12" lean-forward="true" selection-start-line="219" selection-start-column="12" selection-end-line="223" selection-end-column="29" />
+          <folding>
+            <element signature="e#383#1216#0" />
+            <element signature="e#522#823#0" />
+            <element signature="e#905#1211#0" />
+            <element signature="e#1251#3321#0" />
+            <element signature="e#3357#5106#0" />
+            <element signature="e#5136#5381#0" />
+            <element signature="e#6755#7316#0" />
+            <element signature="e#7372#8828#0" />
+            <element signature="e#8866#11819#0" />
+            <element signature="e#11848#12195#0" />
+            <element signature="e#12227#12466#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/max-heap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="193" column="2" selection-start-line="193" selection-start-column="2" selection-end-line="193" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!block;n#clear#0;n#MaxHeap#0" />
+            <element signature="n#!!block;n#insertNode#0;n#MaxHeap#0" />
+            <element signature="n#!!block;n#shiftNodeUp#0;n#MaxHeap#0" />
+            <element signature="n#!!block;n#hasBothChildren#0;n#MaxHeap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
